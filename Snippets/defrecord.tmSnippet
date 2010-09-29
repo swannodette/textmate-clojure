@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(defrecord ${1:rec-name} [${2:attributes}])
+</string>
+	<key>name</key>
+	<string>defrecord</string>
+	<key>scope</key>
+	<string>source.clojure</string>
+	<key>tabTrigger</key>
+	<string>drec</string>
+	<key>uuid</key>
+	<string>E263A9A4-8B12-4F8B-8E2E-6EE931E3E7EE</string>
+</dict>
+</plist>
