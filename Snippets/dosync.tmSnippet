@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(dosync
+  $0)</string>
+	<key>name</key>
+	<string>dosync</string>
+	<key>scope</key>
+	<string>source.clojure</string>
+	<key>tabTrigger</key>
+	<string>dos</string>
+	<key>uuid</key>
+	<string>D7B294D5-9678-4E22-A0BD-CE8DECB6D792</string>
+</dict>
+</plist>
