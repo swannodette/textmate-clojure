@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(defrecord ${1:rec-name} [${2:attributes}]$0)
-</string>
+	<string>(defprotocol ${1:protocol}
+  "${2:docstring for protocol}"
+  $0) </string>
 	<key>name</key>
-	<string>defrecord</string>
+	<string>defprotocol</string>
 	<key>scope</key>
 	<string>source.clojure</string>
 	<key>tabTrigger</key>
-	<string>drec</string>
+	<string>defp</string>
 	<key>uuid</key>
-	<string>E263A9A4-8B12-4F8B-8E2E-6EE931E3E7EE</string>
+	<string>664DF9B4-596A-409F-9F38-B3254A953925</string>
 </dict>
 </plist>
