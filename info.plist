@@ -22,6 +22,7 @@
 			<string>------------------------------------</string>
 			<string>4BAA6473-1980-42B8-B068-C3BE57295913</string>
 			<string>1811A2F3-E45B-4DBB-93B9-6904DC2B5A81</string>
+			<string>7A6B7595-8EAC-412D-BBF0-21D8BBC26A73</string>
 			<string>7244A25B-213D-41C6-8214-45C381CE936E</string>
 			<string>CE47E9E8-3E7E-45E2-BB73-1D7A45B4850B</string>
 			<string>A3F8F18F-4B77-46B3-9D80-CD41C434BB26</string>
@@ -65,6 +66,17 @@
 				</array>
 				<key>name</key>
 				<string>Functions</string>
+			</dict>
+			<key>7A6B7595-8EAC-412D-BBF0-21D8BBC26A73</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>A8D62EFA-B55A-4E8E-85CC-50BF41BF6AC4</string>
+					<string>8DE71D11-B872-4B7A-9C21-4FD88E3CBF0B</string>
+					<string>AB455026-BE3D-4434-8D10-F1930F5934CE</string>
+				</array>
+				<key>name</key>
+				<string>Namespace</string>
 			</dict>
 			<key>A3F8F18F-4B77-46B3-9D80-CD41C434BB26</key>
 			<dict>
@@ -145,7 +157,10 @@
 		<string>3CD4E21D-7146-495E-913E-0106D1196EAE</string>
 		<string>F55C19CD-CD07-4592-A087-D2C3225E2688</string>
 		<string>D86EB49D-0493-4A38-B62C-E9289A0A22C6</string>
+		<string>AB455026-BE3D-4434-8D10-F1930F5934CE</string>
+		<string>8DE71D11-B872-4B7A-9C21-4FD88E3CBF0B</string>
 		<string>ADD2D4CB-D2D2-4C97-B78B-655010DA0564</string>
+		<string>A8D62EFA-B55A-4E8E-85CC-50BF41BF6AC4</string>
 		<string>1B87B84D-7B49-4CA3-87A1-B0E81581193E</string>
 		<string>E26A3D6D-FBB0-4706-8AE8-8D32B24E4879</string>
 		<string>DFE7B742-5342-4D44-AAF6-D9267C09C2A1</string>
