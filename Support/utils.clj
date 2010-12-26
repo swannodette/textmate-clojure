@@ -2,8 +2,8 @@
  (:require [clojure.string :as string]
            [clojure.java.io :as io]
            [clojure.stacktrace :as stacktrace]
-           [clojure.contrib.seq-utils :as seq-utils]
-           [clojure.contrib.pprint :as pprint]))
+           [clojure.pprint :as pprint]
+		   [clojure.contrib.seq :as seq-utils]))
 (clojure.core/refer 'clojure.core)
 
 (defn htmlize [#^String text]
