@@ -173,7 +173,7 @@
       (let [ch (.charAt line index)]
         #_(println "index:" index "char:" ch"<br>")
         (cond 
-            (zero? index) (.trim (.substring line 0 (inc stop)))
+            (neg? index) (.trim (.substring line 0 (inc stop)))
             (or (nil? ch) (not (symbol-char? (.charAt line index))))                                 
               (.trim (.substring line (inc index) (inc stop)))
             :else (recur (dec index)))))))
