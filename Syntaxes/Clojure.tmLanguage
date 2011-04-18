@@ -253,7 +253,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>(:when|:while)(?![a-zA-Z+!\-_?0-9*~#@'`/.$=])</string>
+					<string>(:let|:when|:while)(?![a-zA-Z+!\-_?0-9*~#@'`/.$=])</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
