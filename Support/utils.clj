@@ -129,7 +129,7 @@
   [& forms]
   `(let [old-ns# *ns*]
     (enter-file-ns)
-    (let [r# ~@forms]
+    (let [r# (eval ~@forms)]
       (enter-ns (-> old-ns# str symbol))
       r#)))
 
@@ -256,7 +256,6 @@
       "<pre>"
       (textmate/attempt
         (-> form
-            clojure.core/eval
             textmate/eval-in-file-ns
             textmate/ppstr-nil
             textmate/htmlize
