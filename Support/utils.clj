@@ -113,23 +113,14 @@
   (let [ns (file-ns)]
     (enter-ns ns)))
 
-(defmacro eval-in-ns
-  ""
-  [the-ns & forms]
-  `(let [old-ns# *ns*]
-    (enter-ns ~the-ns)
-    (let [r# ~@forms]
-      (enter-ns (-> old-ns# str symbol))
-      r#)))
-
 (defmacro eval-in-file-ns
   "For the current file, enter the ns (if any)
   and evaluate the form in that ns, then pop
   back up to the original ns"
-  [& forms]
+  [form]
   `(let [old-ns# *ns*]
     (enter-file-ns)
-    (let [r# ~@forms]
+    (let [r# (eval ~form)]
       (enter-ns (-> old-ns# str symbol))
       r#)))
 
@@ -256,7 +247,6 @@
       "<pre>"
       (textmate/attempt
         (-> form
-            clojure.core/eval
             textmate/eval-in-file-ns
             textmate/ppstr-nil
             textmate/htmlize
