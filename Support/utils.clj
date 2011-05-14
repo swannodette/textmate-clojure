@@ -212,9 +212,15 @@
         :default :symbol)))
 
 (defn indices-of [#^String t #^Character target]
-  (reverse (for [[i c] (seq-utils/indexed t)
-          :when (= c target)] i)))
-
+	(reverse (for [[i c] (seq-utils/indexed t)
+					:when (= c target)]
+					(if (and (= c \{)
+							 (> i 0)
+							 (= \# (.charAt t (- i 1)))
+							 (or (= i 1) (not= \\ (.charAt t (- i 2)))))
+						(dec i)
+						i))))
+					
 (def matching-delims
   { \) \(
     \] \[
