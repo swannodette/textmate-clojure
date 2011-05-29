@@ -70,7 +70,7 @@ Create a source file in your <code>src</code> directory called <code>hello_world
   (println "Hello world!"))
 </pre>
 
-Type <code>Control-L</code>. This will load your file. You now have a function that you can run. One way is by typing the following and <code>Control-X</code> in the position indicated:
+Type <code>Command-Shift-L</code>. This will load your file. You now have a function that you can run. One way is by typing the following and <code>Control-X</code> in the position indicated:
 
 <pre>
 (hello-world)
