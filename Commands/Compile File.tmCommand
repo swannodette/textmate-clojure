@@ -18,7 +18,7 @@ load_file.clj</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@L</string>
+	<string>^l</string>
 	<key>name</key>
 	<string>Load File</string>
 	<key>output</key>
