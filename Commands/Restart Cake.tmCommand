@@ -16,8 +16,8 @@ cat &lt;&lt;END_SHELL
 &lt;pre&gt;&lt;code id="output"&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;script type="text/javascript" charset="utf-8"&gt;
   var s       = document.getElementById("output");
-  var res     = TextMate.system("cd ${TM_PROJECT_DIRECTORY}; cake restart", null).outputString;
-  s.innerHTML = res.replace(/\n/g, "&lt;br /&gt;");
+  TextMate.system("cd ${TM_PROJECT_DIRECTORY}; cake -r", null);
+  s.innerHTML = "Cake restarted";
 &lt;/script&gt;
 END_SHELL</string>
 	<key>input</key>
