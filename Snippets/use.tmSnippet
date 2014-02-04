@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(:use [${1:namespace}$0])</string>
+	<key>name</key>
+	<string>use</string>
+	<key>scope</key>
+	<string>source.clojure</string>
+	<key>tabTrigger</key>
+	<string>use</string>
+	<key>uuid</key>
+	<string>A8D62EFA-B55A-4E8E-85CC-50BF41BF6AC4</string>
+</dict>
+</plist>

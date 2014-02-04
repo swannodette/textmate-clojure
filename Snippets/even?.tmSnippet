@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(even? $1)</string>
+	<key>name</key>
+	<string>even?</string>
+	<key>scope</key>
+	<string>source.clojure</string>
+	<key>tabTrigger</key>
+	<string>e?</string>
+	<key>uuid</key>
+	<string>20322D81-1530-43E2-A181-B8D068F49C65</string>
+</dict>
+</plist>
