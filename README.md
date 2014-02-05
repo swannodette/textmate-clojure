@@ -10,6 +10,8 @@ This bundle has only been tested with Clojure 1.2.0, though we'd love to hear ex
     $ git clone git://github.com/swannodette/textmate-clojure.git Clojure.tmbundle
     $ osascript -e 'tell app "TextMate" to reload bundles'
 
+Note: To install the bundle for TextMate 2.0 Alpha, save the bundle to "Avian/Bundles" instead of "TextMate/Bundles".
+
 ## RVM Issues
 
 If you are using RVM it is important to follow the TextMate integration instructions pretty closely. More details of the issues on this [thread](http://groups.google.com/group/textmate-clojure/browse_thread/thread/7d42a13f50c98fdd)
