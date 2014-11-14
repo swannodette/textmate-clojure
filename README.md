@@ -124,3 +124,9 @@ For an even more SLIME like experience you could install [Visor](http://visor.bi
 ## Acknowledgements
 
 This bundle is based on the Based on a previous Clojure bundle by [stephenroller](http://github.com/stephenroller/clojure-tmbundle) and [mmcgrana](http://github.com/mmcgrana/textmate-clojure).
+
+## Copyright and license
+
+Copyright © 2014 David Nolen
+
+Licensed under the EPL (see the file epl.html).
