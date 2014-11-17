@@ -327,14 +327,6 @@
 						</dict>
 					</array>
 				</dict>
-				<dict>
-					<key>begin</key>
-					<string>[^\s]</string>
-					<key>end</key>
-					<string>[^\]]</string>
-					<key>name</key>
-					<string>invalid.illegal.bindings.clojure</string>
-				</dict>
 			</array>
 		</dict>
 		<key>binding_exp</key>
@@ -606,14 +598,6 @@
 							</array>
 						</dict>
 					</array>
-				</dict>
-				<dict>
-					<key>begin</key>
-					<string>[^\s]</string>
-					<key>end</key>
-					<string>[^\]]</string>
-					<key>name</key>
-					<string>invalid.illegal.bindings.clojure</string>
 				</dict>
 			</array>
 		</dict>
@@ -3268,7 +3252,7 @@
 					<array>
 						<dict>
 							<key>begin</key>
-							<string>[0-9]</string>
+							<string>(?&lt;![\.\/])[0-9]</string>
 							<key>end</key>
 							<string>(?![a-zA-Z+!\-&lt;&gt;_?0-9*=])</string>
 							<key>name</key>
