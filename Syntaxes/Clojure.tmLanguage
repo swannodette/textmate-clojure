@@ -1300,6 +1300,10 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#number</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#symbol</string>
 				</dict>
 			</array>
@@ -3240,8 +3244,10 @@
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>match</key>
-					<string>\b[A-Z_]{2,}\b</string>
+					<key>begin</key>
+					<string>(?=[A-Z_\-\!]{2,})</string>
+					<key>end</key>
+					<string>(?!\!|[A-Z_\-])</string>
 					<key>name</key>
 					<string>constant.other.java.clojure</string>
 				</dict>
@@ -3253,9 +3259,9 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>(?=[a-zA-Z+!\-_?0-9*=])</string>
+					<string>(?=[a-zA-Z+!\-&lt;&gt;_?0-9*=])</string>
 					<key>end</key>
-					<string>(?![a-zA-Z+!\-_?0-9*=])</string>
+					<string>(?![a-zA-Z+!\-&lt;&gt;_?0-9*=])</string>
 					<key>name</key>
 					<string>source.symbol.clojure</string>
 					<key>patterns</key>
@@ -3264,7 +3270,7 @@
 							<key>begin</key>
 							<string>[0-9]</string>
 							<key>end</key>
-							<string>(?![a-zA-Z+!\-_?0-9*=])</string>
+							<string>(?![a-zA-Z+!\-&lt;&gt;_?0-9*=])</string>
 							<key>name</key>
 							<string>invalid.illegal.symbol.clojure</string>
 						</dict>
@@ -3272,7 +3278,7 @@
 							<key>begin</key>
 							<string>[a-zA-Z]</string>
 							<key>end</key>
-							<string>([+!\-_?*=#])?(?![a-zA-Z+!\-_?0-9*=])</string>
+							<string>([+!\-&lt;&gt;_?*=#])?(?![a-zA-Z+!\-&lt;&gt;_?0-9*=])</string>
 							<key>endCaptures</key>
 							<dict>
 								<key>1</key>
@@ -3284,9 +3290,9 @@
 						</dict>
 						<dict>
 							<key>begin</key>
-							<string>[+!\-_?*=]</string>
+							<string>[+!\-&lt;&gt;_?*=]</string>
 							<key>end</key>
-							<string>(?![a-zA-Z+!\-_?0-9*=])</string>
+							<string>(?![a-zA-Z+!\-&lt;&gt;_?0-9*=])</string>
 						</dict>
 					</array>
 				</dict>
